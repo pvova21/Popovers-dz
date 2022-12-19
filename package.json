@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/pvova21/Popovers-dz/issues"
   },
-  "homepage": "https://github.com/pvova21/Popovers-dz#readme",
+  "homepage": "https://pvova21.github.io/Popovers-dz#dist",
   "devDependencies": {
     "@babel/cli": "^7.19.3",
     "@babel/core": "^7.20.5",
