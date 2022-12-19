@@ -1,0 +1,98 @@
+.btn-container {
+    margin: 200px auto;
+    width: 238px;
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
+.btn {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif, "Arial";
+    line-height: 30px;
+    background-color: red;
+    padding: 8px 16px;
+    border: 1px solid red;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn:hover {
+    background-color: red;
+    border-color: red;
+}
+
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(225,83,97,.5);
+}
+
+.active {
+    position: absolute;
+    top: -108px;
+    left: -20px;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 4px;
+    width: 274px;
+    transition: 1s;
+}
+
+.arrow {
+    position: absolute;
+    bottom: -9px;
+    box-sizing: border-box;
+    color: rgb(33, 37, 41);
+    height: 8px;
+    left: 124px;
+    margin: 0 4.8px;
+    width: 16px;
+}
+
+.arrow::before {
+    content: "";
+    position:absolute;
+    border-bottom: 0 solid rgba(0, 0, 0, 0);
+    border-left: 8px solid rgba(0, 0, 0, 0);
+    border-right: 8px solid rgba(0, 0, 0, 0);
+    border-top: 8px solid rgba(0, 0, 0, 0.25);
+
+    box-sizing: border-box;
+    height: 8px;
+    width: 16px;
+}
+
+.arrow::after {
+    content: "";
+    position:absolute;
+    border-bottom: 0 solid rgba(0, 0, 0, 0);
+    border-left: 8px solid rgba(0, 0, 0, 0);
+    border-right: 8px solid rgba(0, 0, 0, 0);
+    border-top: 8px solid rgb(255, 255, 255);
+
+    bottom: 1px;
+    box-sizing: border-box;
+    height: 8px;
+    width: 16px;
+}
+
+.popover-header {
+    margin: 0;
+    color: rgb(33, 37, 41);
+    background-color: white;
+    border-bottom: 1px solid white;
+    padding: 8px 12px;
+    box-sizing: border-box;
+
+
+}
+
+.popover-body {
+    color: rgb(33, 37, 41);
+    line-height: 21px;
+    padding: 8px 12px;
+    box-sizing: border-box;
+
+}
